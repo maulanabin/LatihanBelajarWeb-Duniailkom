@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Belajar Table Element</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            border:1px black solid;
+            width: 40%;
+        }
+        th, td {
+            padding: 10px 20px;
+            border: 1px black solid;
+        }
+        th {
+            background-color: #b7F97B;
+        }
+        tr:nth-child(even) {
+            background-color: #EDEDED;
+        }
+        tr:nth-child(odd) {
+            background-color: #FFF;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Tabel HTML</h3>
+    <table>
+        <caption>Tabel Simpanan Peserta</caption>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama Peserta</th>
+                <th>Alamat</th>
+                <th>Simpanan</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total</td>
+                <td>2.905.000</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Andi Suryono</td>
+                <td>Jl. Kemerdekaan No.17</td>
+                <td>50.000</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Susi Handayani</td>
+                <td>Jl. Kebangsaan No.225</td>
+                <td>300.000</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Roy Pratama</td>
+                <td>Kl. Merdeka No.32</td>
+                <td>1.000.000</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Tia Suryani</td>
+                <td>Jl. Jelajah No.111</td>
+                <td>1.555.000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
