@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Belajar Form HTML 5</title>
+</head>
+<body>
+    <datalist id="list_kota">
+        <option value="Palembang">
+        <option value="Padang">
+        <option value="Jakarta">
+        <option value="Bandung">
+        <option value="Surabaya">
+        <option value="Pekanbaru">
+        <option value="Makassar">
+        <option value="Medan">
+        </datalist>
+    <form action="prosesform.php" method="get">
+        <p>Kota Kelahiran: <input type="text" name="kota" list="list_kota"></p>
+        <p><input type="submit" value="Kirim Data"></p>
+    </form>
+</body>
+</html>
